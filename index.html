@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons/bootstrap-icons.css">
+    <title>Distmore</title>
+</head>
+<body class="bg-dark">
+    
+   <!-- navbar  -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-success" href="index.html"><h1 >Distmore</h1></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item text-success">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#movies">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success disabled" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <div class="offcanvas offcanvas-start bg-dark text-white" data-bs-scroll="false" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+     
+      <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    
+    <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item text-success">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item text-success">
+                <a class="nav-link" href="#about-section">About</a>
+              </li>
+              <li class="nav-item text-success">
+                <a class="nav-link" href="#movies">Movies</a>
+              </li>
+              <li class="nav-item text-success">
+                <a class="nav-link disabled " id="#contacts">Contacts</a>
+              </li>
+            </ul>
+    </div>
+  </div>
+  
+  <div class="container">
+    
+    <div class="row text-success text-center">
+      <h2>Movie <span class="text-white">Distributor</span> </h2>
+    </div>
+    
+  </div>
+    <!-- carousel  -->
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="./images/maxresdefault-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/download.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Black-Adam-Heroes-Poster-Header.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- live toasts  -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          
+          <strong class="me-auto">Distmore kenya</strong>
+          <div id="timer">
+            <span class="time-dis" id="sec"></span>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          We are open for Ads.For now, enjoy any of our distribuitions.
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- description -->
+    <div class="container mt-3" id="movies">
+      <div class="row">
+        <h2 class="text-success">Movies</h2>
+       </div>
+      <div class="row" id="display">
+      
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="container mt-3" id="about-section">
+     <div class="row">
+      <h2 class="text-success">About</h2>
+     </div>
+     <div class="row">
+      <div class="clearfix text-white">
+        <img src="./images/IMG_20221002_203909-min.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="...">
+      
+        <p>
+          Distmore is a movie distribution website created by Welangai Eric in the year 2023. to help in distribution of locally and internationally produced movies.
+        </p>
+      
+        <p>
+          this is achieved through APIs and basic movie data from the host websites of the movies. users can watch the movie trailer and read throught the preview of the movie.
+          newer features will be added so that the users can access the movies from the site also and be able to find the movie itself without looking further
+        </p>
+      
+        <p>
+          we also accept to do ads for movies. contact us and get a plan with us to advertise your movies on pur platform
+        </p>
+      </div>
+
+    </div>
+
+    <!-- .contacts -->
+    .
+    <div class="container" id="contacts">
+      <div class="row">
+        <h2 class="text-success">Contacts</h2>
+       </div>
+       <div class="panel panel-default text-white" >
+
+        <div class="panel-body">
+          Panel content
+        </div>
+        <div class="panel-footer">
+          Panel footer
+        </div>
+    </div>
+    </div>
+    
+    
+
+<footer>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+</footer>
+    
+    <!-- javascript file  -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.bundle.js.map"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.js.map"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

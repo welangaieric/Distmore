@@ -1,0 +1,33 @@
+[{
+    "first_name":"Welangai",
+    "last_name":"Eric",
+    "user_name":"welangaieric",
+    "profile_pic":"./images/profile1.jpg",
+    "email":"",
+    "phone":"0751815584"
+},
+{
+    "first_name":"Salim",
+    "last_name":"Hamza",
+    "user_name":"salimhamza",
+    "profile_pic":"./images/profile2.jpg",
+    "email":"",
+    "phone":"0766985648"
+},
+{
+    "first_name":"Steve",
+    "last_name":"john",
+    "user_name":"stevejohn",
+    "profile_pic":"./images/profile3.jpg",
+    "email":"",
+    "phone":"0728153675"
+},
+{
+    "first_name":"ian",
+    "last_name":"sande",
+    "user_name":"iansande",
+    "profile_pic":"./images/profile4.jpg",
+    "email":"",
+    "phone":"0795428624"
+}
+]
