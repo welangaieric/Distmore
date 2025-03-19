@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded',()=>{
         <li class="list-group-item bg-dark text-white mt-3">Director: ${film.director} </li>
         <li class="list-group-item bg-dark text-white mt-3">Rating: ${film.rating} </li>
         <li class="list-group-item bg-dark text-white mt-3">Plot: ${film.description} </li>
-        <li class="list-group-item bg-dark"><button class="btn btn-success"><a class="text-white anc " href="${film.trailer}">Watch Trailer</a></button></li>
+        <li class="list-group-item bg-dark"><button class="btn btn-success"><a class="text-white anc"  href=${film.trailer}>Watch Trailer</a></button></li>
       </ul>
     </div>
   `
